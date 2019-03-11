@@ -1,14 +1,13 @@
 import org.junit.Test;
-import org.junit.Assert;
+import static org.junit.Assert.*;
 
 public class MainClassTest {
-    MainClass mC = new MainClass();
 
     @Test
-    public void testGetLocalclNumber()
+    public void testGetClassNumber()
     {
-        MainClass mC = new MainClass();
-        Assert.assertTrue("LocalNumber not 14", (mC.getLocalNumber() == 14) );
+        MainClass mainClass = new MainClass();
+        assertTrue("class_number NOT more 45", (mainClass.getClassNumber() >= 45) );
     }
 
 }
