@@ -1,3 +1,3 @@
-# mobile_autotest11
+# check and try
  for educational tasks
  Test and check repository
