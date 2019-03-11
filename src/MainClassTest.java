@@ -3,11 +3,9 @@ import org.junit.Assert;
 
 public class MainClassTest {
     @Test
-    public void testGetLocalclNumber()
+    public void testGetClassNumber()
     {
         MainClass mC = new MainClass();
-        Assert.assertTrue("LocalNumber not 14", (mC.getLocalNumber() == 14) );
-
+        Assert.assertTrue("ClassNumber NOT more 45", (mC.getClassNumber() >= 45) );
     }
-
 }
